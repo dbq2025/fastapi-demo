@@ -1,0 +1,43 @@
+﻿# ===== Backend (Python) =====
+.venv/
+venv/
+env/
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.pytest_cache/
+.coverage
+htmlcov/
+*.db
+*.sqlite
+*.sqlite3
+
+# ===== Frontend (Node/Vue) =====
+node_modules/
+dist/
+dist-ssr/
+*.local
+
+# ===== Editor =====
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# ===== Environment =====
+.env
+.env.*
+!.env.example
+
+# ===== Logs =====
+*.log
+logs/
+
+# ===== OS =====
+.DS_Store
+Thumbs.db
+
+# ===== Temp =====
+*.tmp
+*.bak
